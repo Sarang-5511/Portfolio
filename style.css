@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+#section1{
+    background-image: url('images/background1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+    
+}
+#section2{
+    height: fit-content;
+    background-color: rgb(193, 230, 226);
+    padding: 5% 12%;
+}
+#section3{
+    height: fit-content;
+    background-color: rgb(193, 230, 226);
+    padding: 5% 12%;
+    margin: 0;
+}
+#section4{
+    height: fit-content;
+    background-image: url('images/background1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#footer-section{
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    padding: 5% 5%;
+}
+.intro{
+    text-align: center;
+    margin: auto;
+    padding: 5% 0;
+    width: 50%;
+}
+.intro h1{
+    color: white;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+.intro p{
+    text-align: center;
+    font-size: 15px;
+    width: fit-content;
+    padding: 10px 0;
+    color: white;
+}
+.about-image{
+    vertical-align: middle;
+      max-width: 220px;
+      border-radius: 50%;
+      border: 5px solid rgb(196, 183, 183);
+      margin: 20px 0;
+  }
+  .cvbut{
+      margin-top: 10px;
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 3px;
+    
+
+  }
+  .about h2{
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+
+  }
+  .skill-button{
+    border: none;
+    background-color: rgb(23, 26, 32);
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    height: 35px;
+    padding: 5px 8px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 15px  0 10px;
+  }
+  .about-box{
+      margin-top: 40px;
+  }
+  .projects h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+.projectitem{
+    margin-top: 60px;
+}
+.contact{
+    
+   color: white;
+    padding: 3% 15% ;
+  
+    border-radius: 10px;
+ 
+}
+.contact h2{
+    font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 3px;
+      margin-bottom: 60px;
+}
+.contactitems{
+    margin-top: 100px;
+}
+.contact-item{
+    padding: 10px 0;
+}
+.contact-item h5{
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sociallinks{
+    position: absolute;
+    top: 45%;
+    left: 0px;
+}
+.sociallinks a{
+    display: block;
+    font-size: 30px;
+    border-width: 2px 2px 2px 0;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+    color: white;
+   
+}
+.sociallinks a:hover{
+    display: block;
+    font-size: 30px;
+    border-width: 2px 2px 2px 0;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+    color: rgb(221, 201, 201);
+   
+}
+.projectimage{
+    width: 400px;
+    height: 350px;
+}
+.link{
+    text-align: right;
+}
+.link a{
+    text-align: right;
+    font-size: 20px;
+    color: black;
+    
+
+}
+.footwrite h3{
+    font-size: 18px;
+}
+.navbar{
+    padding: 15px 5%;
+}
+.nav-link{
+    font-size: 20px;
+   
+}
+.nav-item{
+    padding: 0 10px;
+}
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('http://www.downgraf.com/wp-content/uploads/2014/09/01-progress.gif?e44397') 50% 50% no-repeat rgb(249,249,249);
+}
+.map{
+    width: 510px;
+    height: 600px;
+    border: 0;
+
+}
+.line{
+    margin: 15px 5% 0;
+    height: 1px;
+    color: black;
+    background-color: black;
+}
+@media only screen and (max-width:570px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.5;
+        overflow-x: hidden;
+    }
+    #section1{
+        background-image: url('images/background1.jpg');
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 900px;
+    }
+    .intro{
+        text-align: center;
+        margin: auto;
+        padding: 5% 0;
+        width: 75%;
+    }
+    .intro h1{
+        color: white;
+        font-weight: 800;
+        letter-spacing: 3px;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .about-image{
+        vertical-align: middle;
+          max-width: 220px;
+          border-radius: 50%;
+          border: 5px solid rgb(196, 183, 183);
+          margin: 30px 0;
+      }
+      .cvbut{
+        margin-top: 10px;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 800;
+        letter-spacing: 3px;
+    }
+    .projectimage{
+    
+        margin: auto;
+        max-width: 306px;
+        height: 200px;
+        vertical-align: middle;
+    }
+    #section2{
+        height: fit-content;
+        background-color: rgb(193, 230, 226);
+        padding: 5% 0;
+    }
+    #section3{
+        height: fit-content;
+        background-color: rgb(193, 230, 226);
+        padding: 5% 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .map{
+        text-align: center;
+        margin: auto;
+        width: 250px;
+        height: 500px;
+        border: 0;
+    
+    }
+    .link{
+        text-align: center;
+    }
+    .link a{
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        
+    }
+    .footwrite h3{
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .contactitems{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .desp h3{
+        margin-top: 15px;
+        font-weight: 600;
+    }
+ .desp p{
+
+ }
+    .contact h2{
+        font-size: 30px;
+          font-weight: bold;
+          text-align: center;
+          letter-spacing: 3px;
+          margin-top: 20px;
+          margin-bottom: 40px;
+    }
+    .about h2{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+  
+    }
+    .projects h2{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 3px;
+    
+    }
+    #section4{
+        max-height: 1100px;
+        background-image: url('images/background1.jpg');
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .mapcont{
+        padding-left: 0;
+    }
+}
