@@ -358,7 +358,7 @@ body{
         border-width: 2px 2px 2px 0;
         border-color: white;
         border-style: solid;
-        padding: 8px;
+        padding: 8px 10px;
         color: white;
        
     }
@@ -368,7 +368,7 @@ body{
         border-width: 2px 2px 2px 0;
         border-color: white;
         border-style: solid;
-        padding: 8px;
+        padding: 8px 10px;
         color: rgb(221, 201, 201);
        
     }
