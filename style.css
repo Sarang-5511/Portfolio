@@ -185,6 +185,7 @@ body{
 }
 .footwrite h3{
     font-size: 18px;
+    letter-spacing: 1.5px;
 }
 .navbar{
     padding: 15px 5%;
