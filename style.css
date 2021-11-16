@@ -190,7 +190,7 @@ body{
     padding: 15px 5%;
 }
 .nav-link{
-    font-size: 20px;
+    font-size: 15px;
    
 }
 .nav-item{
@@ -344,5 +344,32 @@ body{
     }
     .mapcont{
         padding-left: 0;
+    }
+    .nav-link{
+        font-size: 15px;
+    }
+  
+    .nav-item{
+        padding: 0 ;
+    }
+    .sociallinks a{
+        display: block;
+        font-size: 30px;
+        border-width: 2px 2px 2px 0;
+        border-color: white;
+        border-style: solid;
+        padding: 8px;
+        color: white;
+       
+    }
+    .sociallinks a:hover{
+        display: block;
+        font-size: 30px;
+        border-width: 2px 2px 2px 0;
+        border-color: white;
+        border-style: solid;
+        padding: 8px;
+        color: rgb(221, 201, 201);
+       
     }
 }
