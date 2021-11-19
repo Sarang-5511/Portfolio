@@ -33,6 +33,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#section5{
+    text-align: center;
+    background-color:rgb(193, 230, 226) ;
+}
 .visitorcount{
 
     padding: 15px 0;
@@ -223,6 +227,17 @@ body{
     height: 1px;
     color: black;
     background-color: black;
+}
+.coffee-image{
+    width: 200px;
+    height: 200px;
+}
+.coffee-button{
+    width: 100px;
+    
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
 }
 @media only screen and (max-width:570px) {
     html,body{
