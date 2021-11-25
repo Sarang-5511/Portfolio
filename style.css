@@ -235,8 +235,9 @@ body{
     background-color: black;
 }
 .coffee-image{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
 }
 .coffee-button{
     width: 100px;
