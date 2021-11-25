@@ -301,7 +301,6 @@ body{
         letter-spacing: 3px;
     }
     .projectimage{
-    
         margin: auto;
         max-width: 306px;
         height: 200px;
@@ -319,14 +318,12 @@ body{
         margin: 0 auto;
         text-align: center;
     }
-
     .map{
         text-align: center;
         margin: auto;
         width: 250px;
         height: 500px;
         border: 0;
-    
     }
     .link{
         text-align: center;
