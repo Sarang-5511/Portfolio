@@ -124,7 +124,8 @@ body{
 }
 .desp a:hover{
     color: rgb(7, 6, 6);
-    text-decoration: underline;
+   
+
 }
 .projectitem{
     margin-top: 60px;
