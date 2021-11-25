@@ -350,7 +350,7 @@ body{
         font-size: 30px;
           font-weight: bold;
           text-align: center;
-          letter-spacing: 3px;
+          letter-spacing: 2px;
           margin-top: 20px;
           margin-bottom: 40px;
     }
@@ -358,7 +358,7 @@ body{
         font-size: 30px;
         font-weight: bold;
         text-align: center;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         margin-bottom: 10px;
   
     }
@@ -366,7 +366,7 @@ body{
         font-size: 30px;
         font-weight: bold;
         text-align: center;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
     
     }
     #section4{
@@ -388,7 +388,7 @@ body{
     }
     .sociallinks a{
         display: block;
-        font-size: 30px;
+        font-size: 20px;
         border-width: 2px 2px 2px 0;
         border-color: white;
         border-style: solid;
@@ -397,13 +397,13 @@ body{
        
     }
     .sociallinks a:hover{
-        display: block;
-        font-size: 30px;
-        border-width: 2px 2px 2px 0;
-        border-color: white;
-        border-style: solid;
-        padding: 8px 10px;
+      
         color: rgb(221, 201, 201);
        
+    }
+    .contact-about{
+        margin: 20px 0;
+        letter-spacing: 2px;
+        font-size: 18px;
     }
 }
