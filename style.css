@@ -210,8 +210,8 @@ body{
     padding: 0 10px;
 }
 .navbar-brand{
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: bold;
 }
 .loader {
 	position: fixed;
