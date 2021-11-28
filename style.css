@@ -210,9 +210,9 @@ body{
 .nav-item{
     padding: 0 10px;
 }
-.navbar-brand{
-    font-size: 28px;
-    font-weight: bold;
+.logo{
+   height: 45px;
+   width: 50px;
 }
 .loader {
 	position: fixed;
