@@ -310,9 +310,9 @@ body{
         margin-top: 20px;
         background-color: transparent;
         color: rgb(255, 255, 255);
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 800;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
     }
     .projectimage{
         margin: auto;
@@ -323,12 +323,12 @@ body{
     #section2{
         height: fit-content;
         background-color: rgb(193, 230, 226);
-        padding: 5% 0;
+        padding: 6% 0;
     }
     #section3{
         height: fit-content;
         background-color: rgb(193, 230, 226);
-        padding: 5% 0 7%;
+        padding: 6% 0 7%;
         margin: 0 auto;
         text-align: center;
     }
