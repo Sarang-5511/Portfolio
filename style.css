@@ -29,6 +29,7 @@ body{
     margin: 0;
 }
 #section4{
+    padding: 3% 0;
     height: fit-content;
     background-image: url('images/background1.jpg');
     background-position: center;
@@ -148,7 +149,7 @@ body{
       margin-bottom: 60px;
 }
 .contactitems{
-    margin-top: 100px;
+    margin-top: 0px;
 }
 .contact-item{
     padding: 10px 0;
@@ -269,6 +270,19 @@ body{
     width:  50px;
     border-radius: 50%;
     display: none;
+}
+.submitbut{
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.submitbut:hover{
+    cursor: pointer;
 }
 @media only screen and (max-width:570px) {
     html,body{
