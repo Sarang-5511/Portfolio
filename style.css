@@ -286,7 +286,12 @@ body{
 }
 input{
     border-radius: 8px;
+    border: none;
 }
+textarea{
+    border: none;
+}
+
 @media only screen and (max-width:570px) {
     html,body{
         margin: 0;
