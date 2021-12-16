@@ -284,6 +284,9 @@ body{
 .submitbut:hover{
     cursor: pointer;
 }
+input{
+    border-radius: 8px;
+}
 @media only screen and (max-width:570px) {
     html,body{
         margin: 0;
