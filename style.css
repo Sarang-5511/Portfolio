@@ -284,11 +284,12 @@ body{
 .submitbut:hover{
     cursor: pointer;
 }
-input{
-    border-radius: 8px;
+input[type=text]{
+
     border: none;
 }
 textarea{
+  
     border: none;
 }
 
