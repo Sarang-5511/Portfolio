@@ -30,7 +30,7 @@ body{
 }
 #section4{
     padding: 3% 0;
-    height: fit-content;
+    height: 600px;
     background-image: url('images/background1.jpg');
     background-position: center;
     background-size: cover;
@@ -146,7 +146,7 @@ body{
       font-weight: bold;
       text-align: center;
       letter-spacing: 3px;
-      margin-bottom: 60px;
+      margin-bottom: 80px;
 }
 .contactitems{
     margin-top: 0px;
@@ -409,7 +409,8 @@ textarea{
     
     }
     #section4{
-        max-height: 1100px;
+        padding: 20px 0;
+        height: fit-content;
         background-image: url('images/background1.jpg');
         
         background-size: cover;
@@ -417,7 +418,7 @@ textarea{
     }
     .mapcont{
         padding-left: 0;
-        width: 150px;
+        
         height: 300px;
     }
     .nav-link{
