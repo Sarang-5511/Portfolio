@@ -32,7 +32,7 @@ html{
     margin: auto;
     vertical-align: middle;
     padding: 5% 0;
-    height: 810px;
+    height: 835px;
     background-image: url('images/background1.jpg');
     background-position: center;
     background-size: cover;
@@ -156,19 +156,19 @@ html{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; 
     border-radius: 5px;
 }
-.formbox h2{
+.secth4{
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;   
     letter-spacing: 2px;
-    margin-bottom: 10px;
-    color: black;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
 }
 .form-group{
     margin-bottom: 30px;
 }
 .inputlabel{
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(10, 10, 10);
     padding-bottom: 5px;
     font-weight: 500;
@@ -407,12 +407,12 @@ textarea{
     }
     #section2{
         height: fit-content;
-        background-color: rgb(193, 230, 226);
+        background-color: rgb(255, 255, 255);
         padding: 6% 0;
     }
     #section3{
         height: fit-content;
-        background-color: rgb(193, 230, 226);
+        background-color: rgb(255, 255, 255);
         padding: 6% 0 9%;
         margin: 0 auto;
         text-align: center;
