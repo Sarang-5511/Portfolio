@@ -345,16 +345,7 @@ textarea{
     font-weight: 400;
 
 }
-#totop{
-    background-color: black;
-    position: fixed;
-    bottom: 80px;
-    right: 10px;
-    height: 50px;
-    width:  50px;
-    border-radius: 50%;
-    display: none;
-}
+
 .footlogo{
     width: 135px;
     height: 135px;
@@ -373,6 +364,33 @@ textarea{
 .footcol ul li a{
     color: black;
     line-height: 24px;
+}
+
+.totop{
+    border: none;
+    padding: 3px;
+   width: 50px;
+   height: 50px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    color: #000000;
+    font-size: 28px;
+    bottom:100px;
+    display: none;
+    background-color:#ff0000;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    border-radius: 50%;
+    z-index: 2;
+}
+.totop:hover{
+    background-color: rgb(12, 9, 9);
+    
+}
+.totop a{
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
 }
 @media only screen and (max-width:570px) {
     html,body{
@@ -433,7 +451,7 @@ textarea{
     #section3{
         height: fit-content;
         background-color: rgb(255, 255, 255);
-        padding: 6% 0 9%;
+        padding: 6% 0 11%;
         margin: 0 auto;
         text-align: center;
     }
