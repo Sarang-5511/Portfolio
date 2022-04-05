@@ -14,13 +14,13 @@ html{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 850px;
+    height: 800px;
     
 }
 #section2{
     height: fit-content;
     background-color: rgb(255, 255, 255);
-    padding: 5% 12%;
+    padding: 5% 12% 3%;
 }
 #section3{
     height: fit-content;
@@ -83,12 +83,12 @@ html{
       margin: 20px 0;
   }
   .cvbut{
-      margin-top: 20px;
+      margin-top: 30px;
       background-color: transparent;
       color: rgb(255, 255, 255);
       font-size: 20px;
-      font-weight: 800;
-      letter-spacing: 3px;
+      font-weight: 700;
+      letter-spacing: 2px;
       transition: all 0.3s ease-in-out;
     
 
@@ -251,7 +251,7 @@ textarea{
    
 }
 .projectimage{
-    width: 400px;
+    width: 450px;
     height: 350px;
     box-shadow: rgba(41, 39, 39, 0.35) 0px 5px 15px;
 }
@@ -273,7 +273,7 @@ textarea{
     
 } */
 .link{
-    text-align: right;
+    text-align:right;
 }
 .link a{
     text-align: right;
