@@ -330,7 +330,7 @@ textarea{
 }
 .nav-link-ltr::before {
     width: 0%;
-    bottom: 0px;
+    bottom: 5px;
   }
   
   .nav-link-ltr:hover::before {
