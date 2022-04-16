@@ -39,11 +39,18 @@ html{
     background-repeat: no-repeat;
     
     
+    
 }
 #section5{
     padding: 30px 12.5%;
 
     background-color: rgb(255, 255, 255);
+}
+#exploresection{
+    height: fit-content;
+    background-color: rgb(255, 0, 0);
+    padding: 3% 12%;
+    margin: 0;
 }
 .visitorcount{
 
@@ -397,17 +404,41 @@ textarea{
 }
 
 .footrow{
+    margin: auto;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 60px;
+}
+.footcol h4{
+    font-size: 22px;
+    margin-bottom: 20px;
 }
 .footcol ul li{
-    font-size: 18px;
+    font-size: 16px;
    
 }
 .footcol ul li a{
     color: black;
-    line-height: 24px;
+    text-decoration: none;
+   position: relative;
+   line-height: 30px;
+
 }
+.footcol ul li a::before{
+    transition: 400ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #0a0a0a;
+}
+.footcol ul li .footcol-ltr::before {
+    width: 0%;
+    bottom: 0px;
+  }
+  
+  .footcol ul li .footcol-ltr:hover::before {
+    width: 80%;
+  }
 
 .totop{
     border: none;
@@ -435,6 +466,48 @@ textarea{
     color: rgb(0, 0, 0);
     margin-top: -10px;
 }
+
+
+.exploreboxbut{
+    padding: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px auto;
+    background-color: blue;
+}
+.explorebox{
+    text-align: center;
+}
+.explorebutton{
+    margin: 20px;
+    padding: 10px;
+    width: 140px;
+    height: 30px;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.explorebox h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+.explorebox h2::before{
+    content: "";
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    width: 15%;
+    top:48px;
+    
+}
+
 @media only screen and (max-width:570px) {
     html,body{
         margin: 0;
@@ -709,4 +782,5 @@ textarea{
         margin-bottom: 40px;
         color: rgb(255, 255, 255);
     }
+
 }
