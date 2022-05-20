@@ -139,14 +139,14 @@ html{
     position: relative;
 
 }
-.projects h2::before{
+/* .projects h2::before{
     content: "";
       height: 2px;
       background-color: #000000;
       position: absolute;
       width: 15%;
       top:48px;
-}
+} */
 .desp a{
     margin-top: 10px;
     text-decoration: none;
@@ -503,7 +503,7 @@ textarea{
     position: absolute;
     width: 15%;
     top:48px;
-    
+     
 } */
 
 @media only screen and (max-width:570px) {
