@@ -189,14 +189,14 @@ html{
     color: rgb(255, 255, 255);
     position: relative;
 }
-.secth4::before{
+/* .secth4::before{
     content: "";
       height: 2px;
       background-color: #ffffff;
       position: absolute;
       width: 15%;
       top:48px;
-}
+} */
 .form-group{
     margin-bottom: 30px;
 }
