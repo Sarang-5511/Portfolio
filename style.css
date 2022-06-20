@@ -173,8 +173,8 @@ html{
 /* background animation */
 #exploresection{
     height: fit-content;
-    background-color: rgb(255, 0, 0);
-    padding: 3% 12%;
+    background-color: rgb(255, 255, 255);
+    padding: 5% 20%;
     margin: 0;
 }
 .visitorcount{
@@ -302,7 +302,7 @@ html{
     height: fit-content;
     padding: 30px;
     max-width: 80em;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 5px;
 }
 .secth4{
@@ -440,9 +440,9 @@ textarea{
     
 
 }
-.footwrite h3{
-    font-size: 18px;
-    letter-spacing: 1px;
+.footwrite p {
+    font-size: 14px;
+    
 }
 .navbar{
     padding: 15px 5%;
@@ -562,7 +562,10 @@ textarea{
   .footcol ul li .footcol-ltr:hover::before {
     width: 80%;
   }
-
+  .footwrite p {
+    font-size: 16px;
+    
+}
 .totop{
     border: none;
     padding: 3px;
@@ -605,12 +608,50 @@ textarea{
 }
 .explorebut{
     text-align: center;
-    
+    width: 220px;
+    height: 50px;
+    padding: 5px;
     display: block;
-    margin: 20px 0;
+    margin: 15px auto;
+    font-size: 18px;
+    border: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in;
 }
 
+.explorebut:hover{
+    cursor: pointer;
+    background-color: rgb(40, 36, 36);
+    color: rgb(255, 255, 255);
+    transform: translateY(-3px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
+}
+.avatar{
+    vertical-align: middle;
+    max-width: 220px;
+    border-radius: 50%;
+    border: 5px solid rgb(196, 183, 183);
+    margin: 20px 0;
+}
+.swal2-header{
+    font-size: 15px;
+    color: #000000;
+    font-weight: 800;
+}
+.swal2-html-container{
+    text-align: initial;
+}
+button.swal2-confirm.swal2-styled{
+    background-color: black;
+    border-color: black;
+
+    width: 120px;
+  
+    font-size: 20px;
+    padding: 10px;
+}
 @media only screen and (max-width:570px) {
     html,body{
         margin: 0;
