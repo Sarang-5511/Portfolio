@@ -23,7 +23,6 @@ html{
 } */
 
 
-
 #section1{
     background-image: url('images/background1.jpg');
     background-position: center;
@@ -633,6 +632,8 @@ textarea{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     transition: all 0.2s ease-in;
+    display:grid;
+    grid-template-columns: auto;
 }
 
 .explorebut:hover{
@@ -667,6 +668,19 @@ button.swal2-confirm.swal2-styled{
     font-size: 20px;
     padding: 10px;
 }
+.box1{
+    text-align: center;
+}
+.box11{
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin: 0 30px 50px;
+
+}
+
+
 @media only screen and (max-width:570px) {
     html,body{
         margin: 0;
@@ -676,6 +690,15 @@ button.swal2-confirm.swal2-styled{
         line-height: 1.5;
         overflow-x: hidden;
     }
+    .box11{
+        display: inline-block;
+        width: 200px;
+        height: 60px;
+        text-align: center;
+        margin: 10px auto;
+    
+    }
+    
     #section1{
         background-image: url('images/background1.jpg');
         
@@ -947,6 +970,6 @@ button.swal2-confirm.swal2-styled{
     }
     .footwrite p{
         font-size: 14px;
-        
+
     }
 }
