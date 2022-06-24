@@ -562,7 +562,7 @@ button.swal2-confirm.swal2-styled{
     .intro{
         text-align: center;
         margin: auto;
-        padding: 5% 0;
+        padding: 10% 0 5%;
         width: 75%;
     }
     .intro h1{
