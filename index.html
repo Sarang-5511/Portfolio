@@ -234,13 +234,13 @@
 <section id="exploresection">
     <div class="container-fluid p-0">
             <div class="box1">
-                <button class="box11" id="explorebutton1">Achievements</button>
+                <button class="box11" id="explorebutton1">Work-Ex</button>
                 <button class="box11" id="explorebutton2">Academics</button>
-                <button class="box11" id="explorebutton3">Extra Curr.</button>
+                <button class="box11" id="explorebutton3">Extra Curr</button>
             </div>
             <div class="box1">
-                <button class="box11">Achievements</button>
-                <button class="box11">Academics</button>
+                <button class="box11" id="explorebutton4">Publications</button>
+                <button class="box11" id="explorebutton5">Projects</button>
                 
             </div>
     </div>
@@ -281,18 +281,18 @@
             </div>
         </div>
     </section>
-    <!-- <section id="section5">
+    <section id="section5">
         <div class="container-fluid" style="padding: 0;">
             
                 <div class="footrow">
                     <div class="footcol">
                         <h4>About</h4>
-                        <p>Hey I am Sarang Bang and this is my Portfolio Website. I am open to Job opportunities. Please feel free to contact me.</p>
+                        <p>Hey I am Sarang Bang and this is my Portfolio Website.</p>
                     </div>
                     <div class="footcol">
                         <h4>Quick Navigation</h4>
                         <ul style="list-style: none;padding-left: 0;">
-                            <li><a href="#section1" class="footcol-ltr">Home</a></li>
+                            <li><a href="https://sarang-5511.github.io/Portfolio/" class="footcol-ltr">Home</a></li>
                             <li><a href="#section2" class="footcol-ltr">About</a></li>
                             <li><a href="#section3" class="footcol-ltr">Projects</a></li>
                             <li><a href="#section4" class="footcol-ltr">Contact</a></li>
@@ -300,24 +300,24 @@
                     </div>
                     <div class="footcol">
                         <h4>Contact</h4>
-                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Nagpur (MH)
+                        <p><i class="fa fa-map-marker" aria-hidden="true"  style="padding-right: 10px;"></i> Nagpur (MH)
                         </p>
-                        <p><i class="fa fa-phone" aria-hidden="true"></i>+91 9112236313
+                        <p><i class="fa fa-phone" aria-hidden="true"  style="padding-right: 10px;"></i>+91 9112236313
                         </p>
-                        <p><i class="fa fa-envelope" aria-hidden="true"></i><a
+                        <p><i class="fa fa-envelope" aria-hidden="true" style="padding-right: 10px;"></i><a
                                 href="mailto:bangsarang7@gmail.com">bangsarang7@gmail.com</a>
                         </p>
                     </div>
                 </div>
             
         </div>
-    </section> -->
+    </section>
     <section id="footer-section">
         <div class="container-fluid">
             <div class="footinfo">
                 <div class="row">
                     <div class="col-lg-6 footwrite">
-                        <p>© Copyright 2022. Made by <a href="https://sarang-5511.github.io/Portfolio/">Sarang Bang</a>
+                        <p>Made by <a href="https://sarang-5511.github.io/Portfolio/">Sarang Bang</a>
                         </p>
                     </div>
                     <div class="col-lg-6 link">
@@ -362,15 +362,15 @@
 
 
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
         AOS.init();
         //explore button 1
         document.querySelector("#explorebutton1").addEventListener('click', function () {
             Swal.fire({
-                title: 'Achievements & Academics',
+                title: 'Achievements',
                 type: 'info',
-                html: '<ul><li>CGPA:8080</li><li>CGPA:10</li></ul>',
+                html: 'In progress',
 
                 confirmButtonText:
                     ' Great!',
@@ -382,9 +382,9 @@
         //explore button 2
         document.querySelector("#explorebutton2").addEventListener('click', function () {
             Swal.fire({
-                title: 'Publications',
+                title: 'Academics',
                 type: 'info',
-                html: '<ul><li>CGPA:8080</li><li>CGPA:10</li></ul>',
+                html: 'In progress',
 
                 confirmButtonText:
                     ' Great!',
@@ -398,7 +398,7 @@
             Swal.fire({
                 title: 'Extra Curriculars',
                 type: 'info',
-                html: '<ul><li>CGPA:8080</li><li>CGPA:10</li></ul>',
+                html: 'In progress',
 
                 confirmButtonText:
                     ' Great!',
@@ -407,10 +407,35 @@
             });
         });
 
+        
+        //explore button 4
+        document.querySelector("#explorebutton4").addEventListener('click', function () {
+            Swal.fire({
+                title: 'Publications',
+                type: 'info',
+                html: 'In progress',
+               
+                confirmButtonText:
+                    ' Great!',
+                confirmButtonAriaLabel: 'Thumbs up, great!',
 
+            });
+        });
 
+        
+        //explore button 5
+        document.querySelector("#explorebutton5").addEventListener('click', function () {
+            Swal.fire({
+                title: 'Projects',
+                type: 'info',
+                html: 'In progress',
 
+                confirmButtonText:
+                    ' Great!',
+                confirmButtonAriaLabel: 'Thumbs up, great!',
 
+            });
+        });
     </script>
     <script src="index.js"></script>
 
