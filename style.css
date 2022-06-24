@@ -106,6 +106,7 @@ html{
       font-weight: 700;
       letter-spacing: 3px;
       transition: all 0.3s ease-in-out;
+      border: 1px solid white;
   }
   .about h2{
       font-size: 40px;
@@ -586,6 +587,7 @@ button.swal2-confirm.swal2-styled{
         font-size: 18px;
         font-weight: 800;
         letter-spacing: 2px;
+        border: 1px solid white;
     }
     .projectimage{
         margin: auto;
