@@ -50,8 +50,16 @@ html{
 #exploresection{
     height: fit-content;
     background-color: rgb(255, 255, 255);
-    padding: 5% 20%;
+    padding: 2.5% 20% 5%;
     margin: 0;
+}
+#exploresection h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    position: relative;
 }
 .visitorcount{
 
@@ -406,7 +414,7 @@ textarea{
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 60px;
+    grid-gap: 80px;
 }
 .footcol h4{
     font-size: 24px;
