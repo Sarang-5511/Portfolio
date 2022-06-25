@@ -42,11 +42,15 @@ html{
     
 }
 #section5{
-    padding: 60px 12.5%;
-
+    padding: 70px 12.5%;
     background-color: rgb(255, 255, 255);
 }
-
+.maillink{
+    color: black;
+}
+.maillink:hover{
+    text-decoration: underline;
+}
 #exploresection{
     height: fit-content;
     background-color: rgb(255, 255, 255);
@@ -69,15 +73,16 @@ html{
 }
 #footer-section{
     height: fit-content;
-    background-color: rgb(255, 255, 255);
-    padding: 3% 5%;
+    background-color: rgb(0, 0, 0);
+    padding: 2% 5% 2%;
+    color: white;
 }
 .foota{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
 }
 .foota:hover{
-    color: #000000;
+    color: #eceaea;
 }
 .intro{
     text-align: center;
@@ -328,7 +333,7 @@ textarea{
 .link a{
     text-align: right;
     font-size: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
     
 
 }
@@ -381,10 +386,11 @@ textarea{
 
 }
 .line{
-    margin: 15px 5% 0;
+    margin: 10px 5% 0;
+    padding: 0 0 ;
     height: 1px;
-    color: black;
-    background-color: black;
+    color: white;
+    background-color: white;
 }
 .coffee-image{
     width: 180px;
@@ -628,7 +634,7 @@ button.swal2-confirm.swal2-styled{
     .link a{
         text-align: center;
         font-size: 20px;
-        color: black;
+        color: white;
         
     }
     .footwrite h3{
@@ -737,7 +743,7 @@ button.swal2-confirm.swal2-styled{
     }
     #footer-section{
         height: fit-content;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
         padding: 5%;
     }
     .formbox{

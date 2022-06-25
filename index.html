@@ -28,7 +28,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-
 </head>
 
 <body>
@@ -231,10 +230,10 @@
         </div>
     </section>
 
-<section id="exploresection">
-    <h2>EXPLORE</h2>
-    <div class="container-fluid p-0">
-        
+    <section id="exploresection">
+        <h2>EXPLORE</h2>
+        <div class="container-fluid p-0">
+
             <div class="box1">
                 <button class="box11" id="explorebutton1">Work-Ex</button>
                 <button class="box11" id="explorebutton2">Academics</button>
@@ -243,14 +242,10 @@
             <div class="box1">
                 <button class="box11" id="explorebutton4">Publications</button>
                 <button class="box11" id="explorebutton5">Projects</button>
-                
+
             </div>
-    </div>
-</section>
-
-
-
-
+        </div>
+    </section>
 
     <section id="section4">
         <div class="container-fluid">
@@ -285,33 +280,33 @@
     </section>
     <section id="section5">
         <div class="container-fluid" style="padding: 0;">
-            
-                <div class="footrow">
-                    <div class="footcol">
-                        <h4>About</h4>
-                        <p>Hey I am Sarang Bang and this is my Portfolio Website.</p>
-                    </div>
-                    <div class="footcol">
-                        <h4>Quick Navigation</h4>
-                        <ul style="list-style: none;padding-left: 0;">
-                            <li><a href="https://sarang-5511.github.io/Portfolio/" class="footcol-ltr">Home</a></li>
-                            <li><a href="#section2" class="footcol-ltr">About</a></li>
-                            <li><a href="#section3" class="footcol-ltr">Projects</a></li>
-                            <li><a href="#section4" class="footcol-ltr">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footcol">
-                        <h4>Contact</h4>
-                        <p><i class="fa fa-map-marker" aria-hidden="true"  style="padding-right: 10px;"></i> Nagpur (MH)
-                        </p>
-                        <p><i class="fa fa-phone" aria-hidden="true"  style="padding-right: 10px;"></i>+91 9112236313
-                        </p>
-                        <p><i class="fa fa-envelope" aria-hidden="true" style="padding-right: 10px;"></i><a
-                                href="mailto:bangsarang7@gmail.com">bangsarang7@gmail.com</a>
-                        </p>
-                    </div>
+
+            <div class="footrow">
+                <div class="footcol">
+                    <h4>About</h4>
+                    <p>Hey I am Sarang Bang and this is my Portfolio Website.</p>
                 </div>
-            
+                <div class="footcol">
+                    <h4>Quick Navigation</h4>
+                    <ul style="list-style: none;padding-left: 0;">
+                        <li><a href="https://sarang-5511.github.io/Portfolio/" class="footcol-ltr">Home</a></li>
+                        <li><a href="#section2" class="footcol-ltr">About</a></li>
+                        <li><a href="#section3" class="footcol-ltr">Projects</a></li>
+                        <li><a href="#section4" class="footcol-ltr">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footcol">
+                    <h4>Contact</h4>
+                    <p><i class="fa fa-map-marker" aria-hidden="true" style="padding-right: 10px;"></i> Nagpur (MH)
+                    </p>
+                    <p><i class="fa fa-phone" aria-hidden="true" style="padding-right: 10px;"></i>+91 9112236313
+                    </p>
+                    <p><i class="fa fa-envelope" aria-hidden="true" style="padding-right: 10px;"></i><a
+                            href="mailto:bangsarang7@gmail.com" class="maillink">bangsarang7@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+
         </div>
     </section>
     <section id="footer-section">
@@ -364,15 +359,15 @@
 
 
 
- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
         AOS.init();
         //explore button 1
         document.querySelector("#explorebutton1").addEventListener('click', function () {
             Swal.fire({
-                title: 'Achievements',
+                title: 'Work Experience',
                 type: 'info',
-                html: 'In progress',
+                html: '<ul style="font-size:15px;padding:0;"><li>Full stack Web Developer Intern at Mahindra Rise</li><li>Front End Web Developer Intern at Redple Technologies</li></ul>',
 
                 confirmButtonText:
                     ' Great!',
@@ -386,7 +381,7 @@
             Swal.fire({
                 title: 'Academics',
                 type: 'info',
-                html: 'In progress',
+                html: '<ul style="font-size:15px;padding:0;"><li></li><li>Front End Web Developer Intern at Redple Technologies</li></ul>',
 
                 confirmButtonText:
                     ' Great!',
@@ -409,14 +404,14 @@
             });
         });
 
-        
+
         //explore button 4
         document.querySelector("#explorebutton4").addEventListener('click', function () {
             Swal.fire({
                 title: 'Publications',
                 type: 'info',
                 html: 'In progress',
-               
+
                 confirmButtonText:
                     ' Great!',
                 confirmButtonAriaLabel: 'Thumbs up, great!',
@@ -424,7 +419,7 @@
             });
         });
 
-        
+
         //explore button 5
         document.querySelector("#explorebutton5").addEventListener('click', function () {
             Swal.fire({
@@ -457,7 +452,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
         integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   
+
+    
+ 
+
 
 </body>
 
