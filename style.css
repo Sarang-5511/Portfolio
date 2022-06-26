@@ -62,8 +62,19 @@ html{
     font-weight: bold;
     text-align: center;
     letter-spacing: 3px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     position: relative;
+}
+#exploresection h2::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    height: 5px;
+    width: 5rem;
+    background: #191818;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
 }
 .visitorcount{
 
@@ -125,19 +136,22 @@ html{
       font-weight: bold;
       text-align: center;
       letter-spacing: 3px;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
       position: relative;
 
   }
-  /* .about h2::before{
-      content: "";
-      height: 2px;
-      background-color: #000000;
-      position: absolute;
-      width: 15%;
-      top:48px;
+  .about h2::before{
+     content: '';
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    height: 5px;
+    width: 5rem;
+    background: #191818;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
       
-  } */
+  }
   .skill-button{
     border: none;
     background-color: rgb(23, 26, 32);
@@ -161,14 +175,17 @@ html{
     position: relative;
 
 }
-/* .projects h2::before{
-    content: "";
-      height: 2px;
-      background-color: #000000;
-      position: absolute;
-      width: 15%;
-      top:48px;
-} */
+.projects h2::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    height: 5px;
+    width: 5rem;
+    background: #191818;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
 .desp a{
     margin-top: 10px;
     text-decoration: none;
@@ -211,14 +228,17 @@ html{
     color: rgb(255, 255, 255);
     position: relative;
 }
-/* .secth4::before{
-    content: "";
-      height: 2px;
-      background-color: #ffffff;
-      position: absolute;
-      width: 15%;
-      top:48px;
-} */
+.secth4::before{
+        content: '';
+    position: absolute;
+    top: calc(100% + 0.7rem);
+    height: 5px;
+    width: 5rem;
+    background: #f8f8f8;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
 .form-group{
     margin-bottom: 30px;
 }
