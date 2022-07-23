@@ -522,6 +522,10 @@ textarea{
 .swal2-html-container{
     text-align: initial;
 }
+.swal2-title{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
 button.swal2-confirm.swal2-styled{
     background-color: black;
     border-color: black;
@@ -765,7 +769,7 @@ button.swal2-confirm.swal2-styled{
     #footer-section{
         height: fit-content;
         background-color: rgb(0, 0, 0);
-        padding: 5%;
+        padding: 5% 5% 7% 5%;
     }
     .formbox{
         background-color: rgb(255, 255, 255);
